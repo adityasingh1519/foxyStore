@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#font{
+    font-family: 'Josefin Sans', sans-serif;;
+}
+#poppins{
+    font-family: 'Poppins', sans-serif;
+}
+#bgcolor{
+    background-color: #0B0A0A;
+}
+span{
+    color: #FB6119;
+}
+#checkbox{
+    background-color: #FB6119;
+}
+.btn-warning{
+    background-color: #FB6119;
+    color: white;
+}
+#headbg{
+    background-color: #FCF0F0;
+}
+#cardbg{
+    background-color: #F4F1F1;
+}
+#productcard{
+    background-color: #ECECEC;
+}
+.h4{
+    font-size: 1.7vw;
+}
+.h6{
+    font-size: 12px;
+}
+.headbtn{
+    margin-top: -17vw;
+}
+#button{
+    background-color: #5E28D7;
+    position: relative;
+}
+#iconstar{
+    color: #ECC44A;
+    font-size: 17px;
+}
+#shoe{
+    z-index: 1;
+    margin-bottom: -36%;
+}
+#plusbutton{
+    z-index: 1;
+    margin-top: -1.5vw;
+    margin-right: -0.5vw;
+}
+.banner img{
+    background-image: url('/images/circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#socialicon{
+    color: #C0BEBE;
+}
+#aboutus{
+    background-color: #999999;
+    border-radius: 5%;
+    box-shadow: 0px 4.677083492279053px 4.677083492279053px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4.677083492279053px 4.677083492279053px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+input::placeholder{
+    color: black;
+    font-size: 185%;
+}
+#signup input::placeholder{
+    color: black;
+    font-size: 150%;
+}
+
+#line{
+    width: 20%;
+    height: 2px;
+    background-color: rgb(18, 16, 16);
+}
+@media (max-width: 576px) {
+    .headbtn{
+        margin-top: 4vw;
+        align-items: center;
+    }
+}
+
+
+
+
